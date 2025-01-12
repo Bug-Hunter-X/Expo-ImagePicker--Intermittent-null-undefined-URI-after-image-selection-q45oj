@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library within a React Native application.  The issue manifests as an inability to properly access or display the selected image after successful image selection using ImagePicker.showImagePicker(). The selected image's uri may be null or undefined, leading to a blank image display or app crash.
